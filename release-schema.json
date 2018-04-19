@@ -1,0 +1,28 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "options": {
+          "title": "Options",
+          "description": "A description of any options.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "options": {
+          "title": "Options",
+          "description": "A description of any options.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

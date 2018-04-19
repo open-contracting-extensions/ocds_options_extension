@@ -1,0 +1,15 @@
+{
+  "name": {
+    "en": "Options"
+  },
+  "description": {
+    "en": "Adds fields for information on options."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/ocds__extension"
+  },
+  "compatibility": [
+    "1.0",
+    "1.1"
+  ]
+}
