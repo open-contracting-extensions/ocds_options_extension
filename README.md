@@ -1,6 +1,6 @@
 # Options
 
-This extension adds fields for information on options.
+This extension adds a field for information on options.
 
 ## Usage
 
