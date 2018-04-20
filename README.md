@@ -4,7 +4,7 @@ This extension adds a field for information on options.
 
 ## Usage
 
-A buyer may have a right – but not an obligation – to additional purchases from a supplier while the contract is valid. The `options` field should describe this option for additional purchases.
+A buyer may have a right – but not an obligation – to additional purchases from a supplier while the contract is valid. The `tender/options` field should describe this option for additional purchases.
 
 For example, a contract may concern a thousand uniforms, and the buyer may have the option to request an additional hundred uniforms. This may be useful if, when initiating the contracting process, the buyer doesn't yet know whether a planned increase in staff will take place.¹
 
