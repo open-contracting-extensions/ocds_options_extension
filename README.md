@@ -16,10 +16,12 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
 
 ## Example
 
-```eval_rst
-.. jsoninclude:: docs/examples/example.json
-   :jsonpointer: 
-   :expand: 
+```json
+{
+  "tender": {
+    "options": "The buyer has the option to buy an additional hundred uniforms."
+  }
+}
 ```
 
 ## Footnotes
