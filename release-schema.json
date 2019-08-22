@@ -4,11 +4,12 @@
       "properties": {
         "options": {
           "title": "Options",
-          "description": "A description of any options.",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "A description of the options.",
+          "$ref": "#/definitions/Options"
+        },
+        "hasOptions": {
+          "title": "Options used",
+          "description": "Whether or not the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid."
         }
       }
     },
@@ -16,7 +17,20 @@
       "properties": {
         "options": {
           "title": "Options",
-          "description": "A description of any options.",
+          "description": "A description of the options.",
+          "$ref": "#/definitions/Options"
+        },
+        "hasOptions": {
+          "title": "Options used",
+          "description": "Whether or not the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid."
+        }
+      }
+    },
+    "Options": {
+      "properties": {
+        "description": {
+          "title": "Options description",
+          "description": "A description of the options.",
           "type": [
             "string",
             "null"
