@@ -26,7 +26,7 @@
         },
         "hasOptions": {
           "title": "Options used",
-          "description": "Whether or not the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid.",
+          "description": "Whether the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid.",
           "type": [
             "boolean",
             "null"
@@ -40,7 +40,7 @@
       "type": "object",
       "properties": {
         "description": {
-          "title": "Options description",
+          "title": "Description",
           "description": "A description of the options.",
           "type": [
             "string",

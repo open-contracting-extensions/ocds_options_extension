@@ -1,12 +1,12 @@
 # Options
 
-This extension adds a field to indicated whether options are used and an object for information on options.
+This extension adds fields to indicate whether options are used and other information about options.
 
 ## Usage
 
 A buyer may have a right – but not an obligation – to additional purchases from a supplier while the contract is valid.
 
-The `tender.hasOptions` field should be set to `true`, and `tender.options.description` field should describe this option for additional purchases. `.hasOptions` and `.options` can also be set at `Lot` (`tender.lots` array).
+The `tender.hasOptions` field can be set to `true`, and the `tender.options.description` field can describe the options for additional purchases. `hasOptions` and `options` can also be set on `Lot` objects in the `tender.lots` array.
 
 For example, a contract may concern a thousand uniforms, and the buyer may have the option to request an additional hundred uniforms. This may be useful if, when initiating the contracting process, the buyer doesn't yet know whether a planned increase in staff will take place.¹
 

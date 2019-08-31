@@ -3,7 +3,7 @@
     "en": "Options"
   },
   "description": {
-    "en": "Adds a field for information on options."
+    "en": "Adds fields for information on options."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_options_extension"
