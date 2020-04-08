@@ -6,7 +6,7 @@
     "en": "Adds fields for information on options."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_options_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/options/"
   },
   "compatibility": [
     "1.1"
