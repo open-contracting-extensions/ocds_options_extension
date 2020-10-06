@@ -23,7 +23,10 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
   "tender": {
     "hasOptions": true,
     "options": {
-      "description": "The buyer has the option to buy an additional hundred uniforms."
+      "description": "The buyer has the option to buy an additional hundred uniforms.",
+      "recoursePeriod": {
+        "durationInDays": 180
+      }
     }
   }
 }
@@ -38,6 +41,10 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-10-06
+
+* Add the `recoursePeriod` field to the `Options` object.
 
 ### 2020-04-24
 

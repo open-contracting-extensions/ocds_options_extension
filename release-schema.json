@@ -47,6 +47,11 @@
             "null"
           ],
           "minLength": 1
+        },
+        "recoursePeriod": {
+          "title": "Recourse period",
+          "description": "The period over which the options can be used.",
+          "$ref": "#/definitions/Period"
         }
       },
       "minProperties": 1
