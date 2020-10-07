@@ -24,7 +24,7 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
     "hasOptions": true,
     "options": {
       "description": "The buyer has the option to buy an additional hundred uniforms.",
-      "recoursePeriod": {
+      "period": {
         "durationInDays": 180
       }
     }
@@ -44,7 +44,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-06
 
-* Add the `recoursePeriod` field to the `Options` object.
+* Add the `period` field to the `Options` object.
 
 ### 2020-04-24
 

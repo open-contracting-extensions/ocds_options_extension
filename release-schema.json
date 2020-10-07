@@ -48,8 +48,8 @@
           ],
           "minLength": 1
         },
-        "recoursePeriod": {
-          "title": "Recourse period",
+        "period": {
+          "title": "Period",
           "description": "The period over which the options can be used.",
           "$ref": "#/definitions/Period"
         }
