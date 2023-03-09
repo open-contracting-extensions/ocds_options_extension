@@ -44,7 +44,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-06
 
-* Add the `period` field to the `Options` object.
+* Add `Options.period` field.
 
 ### 2020-04-24
 
