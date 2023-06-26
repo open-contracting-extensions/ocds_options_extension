@@ -2,13 +2,9 @@
 
 This extension adds fields to indicate whether options are used and other information about options.
 
-## Usage
-
 A buyer may have a right – but not an obligation – to additional purchases from a supplier while the contract is valid.
 
-The `tender.hasOptions` field can be set to `true`, and the `tender.options.description` field can describe the options for additional purchases. `hasOptions` and `options` can also be set on `Lot` objects in the `tender.lots` array.
-
-For example, a contract may concern a thousand uniforms, and the buyer may have the option to request an additional hundred uniforms. This may be useful if, when initiating the contracting process, the buyer doesn't yet know whether a planned increase in staff will take place.¹
+For example, a contract may concern a thousand uniforms, and the buyer may have the option to request an additional hundred uniforms. This might occur if the buyer doesn't yet know whether a planned increase in staff will take place.
 
 ## Legal context
 
@@ -31,10 +27,6 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
   }
 }
 ```
-
-## Footnotes
-
-¹ Usage guidance is adapted from [eForms technical specifications](http://ec.europa.eu/growth/content/targeted-consultation-eforms-next-generation-public-procurement-standard-forms-0_en).
 
 ## Issues
 
