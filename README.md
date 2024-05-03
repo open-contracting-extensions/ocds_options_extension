@@ -34,6 +34,15 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-05-02
+
+* Add fields:
+  * `Award.hasOptions`
+  * `Award.options`
+  * `Contract.hasOptions`
+  * `Contract.options`
+* Clarify the description of `Tender.hasOptions` and `Lot.hasOptions`.
+
 ### 2020-10-06
 
 * Add `Options.period` field.
