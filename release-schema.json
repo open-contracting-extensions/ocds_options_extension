@@ -9,7 +9,41 @@
         },
         "hasOptions": {
           "title": "Options used",
-          "description": "Whether or not the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid.",
+          "description": "Whether the buyer is expected to reserve the right to make additional purchases from the supplier.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "Award": {
+      "properties": {
+        "options": {
+          "title": "Options",
+          "description": "A description of the options.",
+          "$ref": "#/definitions/Options"
+        },
+        "hasOptions": {
+          "title": "Options used",
+          "description": "Whether the buyer is expected to reserve the right to make additional purchases from the supplier.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "Contract": {
+      "properties": {
+        "options": {
+          "title": "Options",
+          "description": "A description of the options.",
+          "$ref": "#/definitions/Options"
+        },
+        "hasOptions": {
+          "title": "Options used",
+          "description": "Whether the buyer reserves the right to make additional purchases from the supplier.",
           "type": [
             "boolean",
             "null"
@@ -26,7 +60,7 @@
         },
         "hasOptions": {
           "title": "Options used",
-          "description": "Whether the buyer reserves the right to make additional purchases from the supplier, as long as the contract is valid.",
+          "description": "Whether the buyer is expected to reserve the right to make additional purchases from the supplier.",
           "type": [
             "boolean",
             "null"
